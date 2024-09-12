@@ -1,0 +1,13 @@
+water_per_loaf = 1.5 
+yeast_per_loaf = 1.0 
+flour_per_loaf = 4.5 
+oil_per_loaf = 2.0 
+
+num_loaves = int(input("How many loaves do you want to make? "))
+
+total_water = round(water_per_loaf * num_loaves, 1)
+total_yeast = round(yeast_per_loaf * num_loaves, 1)
+total_flour = round(flour_per_loaf * num_loaves, 1)
+total_oil = round(oil_per_loaf * num_loaves, 1)
+
+print(f"You need {total_water} cups of warm water, {total_yeast} tablespoons of yeast, {total_flour} cups of all-purpose flour, and {total_oil} tablespoons of oil.")
